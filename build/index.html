@@ -1,0 +1,27 @@
+
+      <!doctype html>
+      <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport"
+                    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+              <meta http-equiv="X-UA-Compatible" content="ie=edge">
+              <title>Maratik555</title>
+              <link href=bundle.index-NXMO4ZCT.css rel="stylesheet">
+          </head>
+          <body>
+              <div id="root"></div>
+              <script src=bundle.index-SVYU6FUZ.js></script>
+              <script>
+              const evtSource = new EventSource('http://localhost:3000/subscribe')
+             evtSource.onopen = function () { console.log('open') }
+             evtSource.onerror = function () { console.log('error') }
+             evtSource.onmessage = function () { 
+                  console.log('message')
+                  window.location.reload();
+              }
+             
+             </script>
+          </body>
+      </html>
+                    

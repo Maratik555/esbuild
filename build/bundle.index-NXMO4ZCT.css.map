@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css", "../src/second.css"],
+  "sourcesContent": ["* {\r\n    color: red;\r\n}\r\n\r\nimg {\r\n    width: 200px;\r\n    height: 200px;\r\n}", "h1 {\r\n    font-size: 80px;\r\n}"],
+  "mappings": ";AAAA;AACI;AAAA;AAGJ;AACI;AACA;AAAA;;;ACNJ;AACI;AAAA;",
+  "names": []
+}
